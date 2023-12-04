@@ -14,3 +14,19 @@ Certifique-se de ter as seguintes dependências instaladas:
 ```
 pip install requirements.txt
 ```
+
+### Configuração de Ambiente
+
+1. Clone este repositório
+```
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+
+```
+2. Crie e ative um ambiente virtual:
+```
+python -m venv venv
+source venv/bin/activate  # No Windows, use venv\Scripts\activate.bat
+
+```
+
