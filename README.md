@@ -56,3 +56,7 @@ Registro de Usuário: POST /api/register/
    * username (string): Nome de usuário único.
    * password (string): Senha do usuário.
    * password (string): Email do usuário.
+Login: POST /api/login/
+ * Parâmetros
+    * username (string): Nome de usuário registrado.
+    * password (string): Senha do usuário registrado.
