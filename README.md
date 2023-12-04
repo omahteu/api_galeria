@@ -48,3 +48,11 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
+
+## Endpoints
+
+Registro de Usuário: POST /api/register/
+ * Parâmetros
+   * username (string): Nome de usuário único.
+   * password (string): Senha do usuário.
+   * password (string): Email do usuário.
