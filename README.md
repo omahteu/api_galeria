@@ -8,6 +8,9 @@ Este projeto consiste em uma API RESTful desenvolvida com Django REST Framework,
 
 Certifique-se de ter as seguintes dependências instaladas:
 
-> Python (versão >= 3.x)
+* Python (versão >= 3.x)
+* Instale as dependências do projeto executando:
 
-Instale as dependências do projeto executando:
+```
+pip install requirements.txt
+```
