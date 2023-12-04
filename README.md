@@ -6,6 +6,17 @@ Este projeto consiste em uma API RESTful desenvolvida com Django REST Framework,
 ## Configuração
 ### Requisitos
 
+#### Postgresql
+
+Dados do Banco de Dados
+- host: localhost
+- user: postgres
+- password: 123
+- database: argo
+- port: 5432
+
+#### Django Rest Framework
+
 Certifique-se de ter as seguintes dependências instaladas:
 
 * Python (versão >= 3.x)
@@ -29,4 +40,11 @@ python -m venv venv
 source venv/bin/activate  # No Windows, use venv\Scripts\activate.bat
 
 ```
-
+3. Execute as migrações do banco de dados:
+```
+python manage.py migrate
+```
+4. Inicie o servidor:
+```
+python manage.py runserver
+```
