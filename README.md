@@ -60,3 +60,10 @@ Login: POST /api/login/
  * Parâmetros
     * username (string): Nome de usuário registrado.
     * password (string): Senha do usuário registrado.
+Logout: POST /api/logout/
+Upload de Arquivo (requer autenticação): POST /api/upload/
+ * Parâmetros
+  * Token
+  * imagem
+  * titulo
+  * comentario
